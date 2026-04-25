@@ -72,7 +72,7 @@ Durante el desarrollo de este proyecto se fortalecieron conceptos como:
 1. Clonar el repositorio:
 
 ```
-git clone https://github.com/tu-usuario/portafolio-jose.git
+git clone https://github.com/jossmmejia/portafolio-.git
 ```
 
 2. Abrir el archivo:
