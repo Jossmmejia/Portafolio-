@@ -1,115 +1,99 @@
 # 🚀 Portafolio Web — José Mejía
 
-## 🌐 Vista previa
-
-![Preview](./assets/preview.gif)
-
----
-
 ## 📌 Descripción
 
-Portafolio web moderno desarrollado con HTML, CSS y JavaScript, enfocado en diseño responsivo, interactividad y buenas prácticas de desarrollo frontend.
+Este proyecto corresponde a un portafolio web desarrollado como parte del proceso de aprendizaje en desarrollo frontend.
+El objetivo fue construir una interfaz moderna, responsiva e interactiva aplicando buenas prácticas de HTML, CSS y JavaScript.
 
-Este proyecto simula un entorno real de trabajo, integrando componentes visuales, animaciones y manipulación del DOM.
-
----
-
-## 🎥 Demostración
-
-### 🏠 Inicio + Interacción
-
-![Hero](./assets/hero.gif)
-
-### 🧩 Proyectos (Modal interactivo)
-
-![Proyectos](./assets/proyectos.gif)
-
-### 🐾 Galería de Mascotas (Hover animado)
-
-![Mascotas](./assets/mascotas.gif)
+El sitio incluye secciones de presentación, proyectos, galería y contacto, junto con interacciones dinámicas que mejoran la experiencia del usuario.
 
 ---
 
-## ⚙️ Funcionalidades
+## 🎯 Objetivos del proyecto
 
-* 📱 Diseño responsivo (mobile / tablet / desktop)
-* 🎨 UI moderna con CSS Grid y Flexbox
-* 🔘 Botones interactivos (cambio de texto)
-* 📖 Toggle "Mostrar más"
-* 🪟 Modal dinámico para proyectos
-* 🐾 Cards con animaciones hover
-* 📩 Formulario de contacto
+* Implementar diseño responsivo mediante media queries
+* Optimizar estilos CSS usando variables globales
+* Aplicar manipulación del DOM con JavaScript
+* Crear interacciones básicas (botones, modales, toggle)
+* Construir una estructura limpia y escalable
 
 ---
 
-## 🛠️ Tecnologías
+## 🛠️ Tecnologías utilizadas
 
 * HTML5
-* CSS3 (Grid, Flexbox, Variables)
+* CSS3 (Flexbox, Grid, Variables CSS)
 * JavaScript (DOM, eventos)
+* Responsive Design
 
 ---
 
-## 📂 Estructura
+## ⚙️ Funcionalidades principales
 
-```id="8qf5d1"
+* 📱 Diseño completamente responsivo (mobile, tablet, desktop)
+* 🎨 Interfaz moderna con estilos personalizados
+* 🧩 Sistema de cards para proyectos y habilidades
+* 🐾 Galería de mascotas con efecto hover animado
+* 🔘 Botón que cambia contenido dinámicamente
+* 📖 Botón "Mostrar más" con toggle de información
+* 🪟 Modal interactivo para visualizar proyectos
+* 📩 Formulario de contacto básico
+
+---
+
+## 📂 Estructura del proyecto
+
+```
 📁 portafolio
 │
 ├── index.html
 ├── mascotas.html
 ├── styles.css
 ├── script.js
-├── README.md
-└── assets/
-    ├── preview.gif
-    ├── hero.gif
-    ├── proyectos.gif
-    └── mascotas.gif
+└── README.md
 ```
 
 ---
 
-## 🚀 Instalación
+## 🧠 Aprendizajes clave
 
-```id="1trqfs"
+Durante el desarrollo de este proyecto se fortalecieron conceptos como:
+
+* Uso de media queries para adaptar layouts
+* Organización y optimización del CSS
+* Manipulación del DOM con JavaScript
+* Manejo de eventos y dinámicas de interacción
+* Mejora de la experiencia de usuario (UX)
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+
+```
 git clone https://github.com/tu-usuario/portafolio-jose.git
-cd portafolio-jose
 ```
 
-Abrir:
+2. Abrir el archivo:
 
-```id="hz85o3"
+```
 index.html
 ```
 
----
-
-## 🌐 Deploy
-
-Puedes ver el proyecto en línea en:
-
-👉 https://tu-proyecto.vercel.app
+en cualquier navegador web.
 
 ---
 
-## 🧠 Aprendizajes
+## 🧾 Estado del proyecto
 
-* Manipulación del DOM
-* Diseño responsivo con media queries
-* Organización de CSS escalable
-* Interactividad con JavaScript
-* Mejora de experiencia de usuario (UX)
+✅ Funcional
+🔄 En mejora continua
 
 ---
 
-## 📬 Contacto
+## 💡 Notas finales
 
-* GitHub: https://github.com/tu-usuario
-* LinkedIn: https://linkedin.com/in/tu-perfil
-* Correo: [tuemail@email.com](mailto:tuemail@email.com)
+Este proyecto representa una base sólida para futuros desarrollos más avanzados, incluyendo integración con frameworks modernos y backend.
 
 ---
-
-## 🧾 Estado
-
-🚧 En mejora continua
