@@ -1,0 +1,336 @@
+/* =========================
+   VARIABLES (IDENTIDAD)
+========================= */
+:root {
+    --bg: #0b0f19;
+    --bg-soft: #111827;
+    --card: rgba(255,255,255,0.04);
+
+    --primary: #7c3aed;
+    --secondary: #06b6d4;
+
+    --text: #e5e7eb;
+    --text-soft: #9ca3af;
+
+    --border: rgba(255,255,255,0.08);
+}
+
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: radial-gradient(circle at top, #111827, #020617);
+    color: var(--text);
+}
+
+/* =========================
+   CONTENEDOR
+========================= */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+/* =========================
+   HEADER
+========================= */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.3);
+    border-bottom: 1px solid var(--border);
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a {
+    color: var(--text-soft);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: var(--text);
+}
+
+/* MENU */
+.menu-btn {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* =========================
+   HERO
+========================= */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    margin-top: 1rem;
+    color: var(--text-soft);
+}
+
+.hero-img img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* BOTONES */
+.btn, .btn-outline {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.btn {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border: none;
+    color: white;
+}
+
+.btn-outline {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background: transparent;
+}
+
+/* =========================
+   CARDS (HABILIDADES)
+========================= */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 12px;
+
+    background: var(--card);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+/* =========================
+   PROYECTOS
+========================= */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+/* =========================
+   FORMULARIO
+========================= */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: none;
+}
+
+/* =========================
+   GALERÍA MASCOTAS
+========================= */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.pet-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.pet-card img {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.2)
+    );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 1rem;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.pet-card:hover img {
+    transform: scale(1.1);
+}
+
+.pet-card:hover .overlay {
+    opacity: 1;
+}
+
+/* =========================
+   FOOTER PREMIUM
+========================= */
+.footer {
+    margin-top: 5rem;
+    padding: 3rem 2rem 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.footer h4 {
+    margin-bottom: 1rem;
+}
+
+.footer a {
+    display: block;
+    color: var(--text-soft);
+    text-decoration: none;
+    margin-bottom: 0.4rem;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-soft);
+}
+
+/* =========================
+   UTILIDADES
+========================= */
+.hidden {
+    display: none;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .grid,
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .grid,
+    .cards,
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

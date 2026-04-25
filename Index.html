@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>José Mejía | Portafolio</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1 class="logo">JM</h1>
+
+    <button id="menu-btn" class="menu-btn">☰</button>
+
+    <nav id="nav" class="nav">
+        <a href="#hero">Inicio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="mascotas.html">Mascotas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero container">
+    
+    <div class="hero-text">
+        <h1>Interfaces que generan confianza</h1>
+        <p id="texto">
+            Desarrollo experiencias modernas con enfoque en rendimiento.
+        </p>
+
+        <button id="btn-cambiar" class="btn">Cambiar texto</button>
+        <button id="btn-toggle" class="btn-outline">Mostrar más</button>
+
+        <p id="extra" class="hidden">
+            Código limpio, diseño UI y optimización.
+        </p>
+    </div>
+
+    <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=800">
+    </div>
+
+</section>
+
+<!-- CARDS -->
+<section class="container">
+    <h2>Habilidades</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>⚡ Performance</h3>
+            <p>Optimización y carga rápida.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎨 UI Moderna</h3>
+            <p>Interfaces limpias y atractivas.</p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Código limpio</h3>
+            <p>Estructura organizada y escalable.</p>
+        </div>
+
+        <div class="card">
+            <h3>📱 Responsive</h3>
+            <p>Adaptable a cualquier dispositivo.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚀 Optimización</h3>
+            <p>Buenas prácticas de desarrollo.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔐 Seguridad</h3>
+            <p>Buenas prácticas en desarrollo web.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROYECTOS -->
+<section id="proyectos" class="container">
+    <h2>Proyectos</h2>
+
+    <div class="grid">
+
+        <div class="card proyecto" data-proyecto="1">
+            <h3>Proyecto 1</h3>
+            <p>Landing page moderna</p>
+        </div>
+
+        <div class="card proyecto" data-proyecto="2">
+            <h3>Proyecto 2</h3>
+            <p>App interactiva</p>
+        </div>
+
+        <div class="card proyecto" data-proyecto="3">
+            <h3>Proyecto 3</h3>
+            <p>Dashboard UI</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="container">
+    <h2>Contacto</h2>
+
+    <form>
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Correo">
+        <button>Enviar</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- MARCA -->
+        <div class="footer-brand">
+            <h3>JM</h3>
+            <p>Interfaces modernas, limpias y escalables.</p>
+        </div>
+
+        <!-- COLUMNAS -->
+        <div class="footer-column">
+            <h4>Portafolio</h4>
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="mascotas.html">Mascotas</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Recursos</h4>
+            <ul>
+                <li><a href="#">UI Design</a></li>
+                <li><a href="#">Frontend</a></li>
+                <li><a href="#">Performance</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Contacto</h4>
+            <ul>
+                <li><a href="#">Correo</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- LINEA FINAL -->
+    <div class="footer-bottom">
+        <p>© 2026 José Mejía — Todos los derechos reservados</p>
+
+        <div class="socials">
+            <span>🐙</span>
+            <span>💼</span>
+            <span>✉️</span>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
